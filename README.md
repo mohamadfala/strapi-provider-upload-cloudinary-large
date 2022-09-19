@@ -1,5 +1,9 @@
 # strapi-provider-upload-cloudinary
 
+
+[![NPM](https://img.shields.io/npm/v/strapi-provider-upload-cloudinary-large.svg)](https://www.npmjs.com/package/strapi-provider-upload-cloudinary-large) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+
 ## Upload large files support
 
 This is a fork from the original strapi cloudinary plugin, modified to support uploading large files to cloudinary.
