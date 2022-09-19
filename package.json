@@ -1,0 +1,44 @@
+{
+  "name": "strapi-provider-upload-cloudinary-large",
+  "version": "1.0.2",
+  "description": "Cloudinary provider for strapi upload with large files support",
+  "keywords": [
+    "upload",
+    "cloudinary",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "cloudinary": "^1.25.1",
+    "into-stream": "^5.1.0"
+  },
+  "peerDependencies": {
+    "strapi-plugin-upload": "^3.1.6"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "mohamadfala@gmail.com",
+    "name": "Mohamad Fala",
+    "url": "https://github.com/mohamadfala"
+  },
+  "maintainers": [
+    {
+      "name": "Mohamad Fala",
+      "email": "mohamadfala@gmail.com",
+      "url": "https://mevox.co"
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  }
+}
